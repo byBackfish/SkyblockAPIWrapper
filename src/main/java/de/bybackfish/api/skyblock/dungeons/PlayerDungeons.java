@@ -6,10 +6,11 @@ import lombok.Getter;
 @Getter
 public class PlayerDungeons {
 
-  @SerializedName(
-      "catacombs"
-  )
-  private PlayerDungeon catacombs = new PlayerDungeon();
+  @SerializedName("xp")
+  private double xp = 0;
+
+  @SerializedName("level")
+  private double level = 0;
 
   @SerializedName(
       "berserk"
