@@ -1,7 +1,7 @@
 # SkyblockAPIWrapper
 JVM Wrapper for the Fragrunners API
 
-* Made for Fragrunners*
+# Made for Fragrunners
 
 Join my [Discord](https://discord.gg/qkwzgTZeEr)!.
 
