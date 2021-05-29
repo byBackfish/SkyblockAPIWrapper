@@ -20,4 +20,9 @@ JVM Wrapper for the Fragrunners API
 * Just open a Ticket on our Discord and i will add it
 
 
+# Caching
+
+* When using this Wrapper, there is an option to use the Cached Player or to fetch the Data. I would suggest to use the Cached Player. That Way it does not send a request to the api everytime and therefore doesnt get you rate limited
+
+
 
