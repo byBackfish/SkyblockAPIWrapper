@@ -13,4 +13,10 @@ public class PlayerDungeon {
   @SerializedName("level")
   private double level = 0;
 
+  @SerializedName("progress")
+  private double progress = 0;
+
+  @SerializedName("required")
+  private double required = 0;
+
 }
