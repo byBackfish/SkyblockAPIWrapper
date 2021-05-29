@@ -12,7 +12,7 @@ public class Example {
 
     /* OPTIONAL */ skyblockAPI.setUpdateInterval(60000); // Sets the Cache Update Interval
 
-    System.out.println(skyblockAPI.getPlayerCached("byBackfish").getPlayerData().getSkills().getCombat().getProgress());
+    System.out.println(skyblockAPI.getPlayerCached("byBackfish").getPlayerData().getDungeonTypes().getCatacombs().getPlayerDungeonStats().getPlayerDungeonCompletions().getMaster4());
   }
 
 }

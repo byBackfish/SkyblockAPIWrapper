@@ -18,6 +18,9 @@ public class PlayerDungeons {
   @SerializedName("required")
   private double required = 0;
 
+  @SerializedName("into")
+  private double into = 0;
+
   @SerializedName(
       "berserk"
   )
