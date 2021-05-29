@@ -8,12 +8,12 @@ import lombok.Getter;
 public class PlayerExtra {
 
   @SerializedName("fairySouls")
-  private int fairySouls;
+  private int fairySouls = 0;
 
   @SerializedName("cuteName")
-  public String profileName;
+  private String profileName = "";
 
   @SerializedName("lastLogin")
-  private long lastLogin;
+  private long lastLogin = 0;
 
 }
