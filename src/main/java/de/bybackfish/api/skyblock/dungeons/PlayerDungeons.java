@@ -37,4 +37,7 @@ public class PlayerDungeons {
   )
   private PlayerDungeon mage = new PlayerDungeon();
 
+  @SerializedName("data")
+  private PlayerDungeonStats playerDungeonStats = new PlayerDungeonStats();
+
 }

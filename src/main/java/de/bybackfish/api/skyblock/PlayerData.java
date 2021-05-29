@@ -6,6 +6,8 @@ import de.bybackfish.api.skyblock.economy.PlayerEconomy;
 import de.bybackfish.api.skyblock.extra.PlayerExtra;
 import de.bybackfish.api.skyblock.skills.PlayerSkills;
 import de.bybackfish.api.skyblock.slayer.PlayerSlayer;
+import de.bybackfish.api.skyblock.slayer.PlayerSlayers;
+import de.bybackfish.api.skyblock.weight.PlayerWeights;
 import lombok.Getter;
 
 @Getter
@@ -18,7 +20,7 @@ public class PlayerData {
   private PlayerDungeonTypes dungeonTypes = new PlayerDungeonTypes();
 
   @SerializedName("slayer")
-  private PlayerSlayer slayer = new PlayerSlayer();
+  private PlayerSlayers slayer = new PlayerSlayers();
 
   @SerializedName("extra")
   private PlayerExtra extra = new PlayerExtra();
@@ -26,8 +28,8 @@ public class PlayerData {
   @SerializedName("coins")
   private PlayerEconomy economy = new PlayerEconomy();
 
-//  @SerializedName("weight")
- // private PlayerWeights weights = new PlayerWeights();
+   @SerializedName("weight")
+  private PlayerWeights weights = new PlayerWeights();
 
   @SerializedName("uuid")
   private String uuid;
