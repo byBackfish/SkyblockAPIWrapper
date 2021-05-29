@@ -32,5 +32,8 @@ public class PlayerData {
   private PlayerWeights weights = new PlayerWeights();
 
   @SerializedName("uuid")
-  private String uuid;
+  private String uuid = "";
+
+  @SerializedName("name")
+  private String name = "";
 }
