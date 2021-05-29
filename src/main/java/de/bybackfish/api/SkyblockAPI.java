@@ -2,7 +2,6 @@ package de.bybackfish.api;
 
 import com.google.gson.Gson;
 import de.bybackfish.api.skyblock.APIData;
-import javafx.util.Pair;
 import lombok.Data;
 import lombok.SneakyThrows;
 

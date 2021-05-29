@@ -5,7 +5,6 @@ import de.bybackfish.api.skyblock.dungeons.PlayerDungeonTypes;
 import de.bybackfish.api.skyblock.economy.PlayerEconomy;
 import de.bybackfish.api.skyblock.extra.PlayerExtra;
 import de.bybackfish.api.skyblock.skills.PlayerSkills;
-import de.bybackfish.api.skyblock.slayer.PlayerSlayer;
 import de.bybackfish.api.skyblock.slayer.PlayerSlayers;
 import de.bybackfish.api.skyblock.weight.PlayerWeights;
 import lombok.Getter;

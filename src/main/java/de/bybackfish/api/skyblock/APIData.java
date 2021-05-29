@@ -5,8 +5,6 @@ import lombok.Getter;
 
 @Getter
 public class APIData {
-
-
   @SerializedName("success")
   private boolean success;
 
